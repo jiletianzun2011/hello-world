@@ -13,6 +13,14 @@ add_executable(qt_tcm
     src/main.cpp
     src/MainWindow.h
     src/MainWindow.cpp
+    src/HerbDock.h
+    src/HerbDock.cpp
+    src/TemplatesDialog.h
+    src/TemplatesDialog.cpp
+    src/HistoryDialog.h
+    src/HistoryDialog.cpp
+    src/PatientDialog.h
+    src/PatientDialog.cpp
 )
 
 target_link_libraries(qt_tcm PRIVATE Qt6::Widgets Qt6::Sql)
